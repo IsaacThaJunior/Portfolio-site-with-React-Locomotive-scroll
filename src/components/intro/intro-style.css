@@ -1,0 +1,24 @@
+.intro-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(black 99%, white);
+        height: 100vh;
+        padding: 1.5rem;
+}
+
+.intro-title {
+        /* display: flex; */
+        flex: 1;
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        /* background: linear-gradient(white, black);
+        -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.intro-image {
+        /* display: flex; */
+        flex: 1;
+}

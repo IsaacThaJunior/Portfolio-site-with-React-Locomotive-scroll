@@ -1,0 +1,52 @@
+
+.message-section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: 100vh;
+    
+}   
+
+.message {
+    font-size: 3rem;
+    padding: 2.5rem;
+}
+
+input {
+    height: 3.5rem;
+    width: 30rem;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    margin: 1rem;
+    color: #000;
+}
+
+textarea {
+    height: 9rem;
+    width: 30rem;
+    border: 0;
+    border-radius: 2px;
+    display: block;
+    margin: 1rem;
+    color: #000;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 1.1rem;
+    color: black;
+  }
+
+  /* Added This */
+.op-class{  
+    opacity: 0;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 4s ;
+}

@@ -1,0 +1,47 @@
+/* Sticky footer styles */
+.container {
+  max-width: 50rem;
+  height: 30rem;
+  display: block;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 2px 2px 13px rgb(170, 170, 170);
+  color: rgb(46, 60, 139);
+  background-color: white;
+  margin: 12px 10px;
+}
+
+.cardContent {
+  padding: 4px 16px 20px 16px;
+}
+
+.cardImg {
+  background-color: lightGray;
+  border-radius: 8px 8px 0 0;
+  max-height: 20rem;
+  overflow: hidden;
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 12px 0px 0px 0px;
+}
+
+
+.cardDesc {
+  font-size: 14;
+  margin: 8px 0 0 0;
+}
+
+
+/* .op-class{
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s ;
+} */
