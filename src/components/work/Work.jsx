@@ -3,12 +3,10 @@ import Card from "../Card";
 
 const Work = () => {
   return (
-    <section id="case-stick" data-scroll-section className="work-section">
+    <section id="case-stick"  className="work-section">
       <p
         className="case"
-        data-scroll
-        data-scroll-sticky
-        data-scroll-target="#case-stick"
+    
       >
         CASE STUDIES <br />
         Latest Works

@@ -76,43 +76,20 @@
 
 // export default App;
 
-import Introduction from "./components/intro/Introduction";
-import Work from "./components/work/Work";
-import Message from "./components/message/Message";
-import { useRef } from "react";
-import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import "./App.css";
-// import { useLocation } from "react-router-dom";
+import Introduction from './components/intro/Introduction';
+import Work from './components/work/Work';
+import Message from './components/message/Message';
+
+import './App.css';
 
 function App() {
-  const ref = useRef(null);
-  // const { pathname } = useLocation();
-
-  const options = {
-    smooth: true,
-    multiplier: 3,
-    smartphone: {
-      smooth: true,
-    },
-  };
-
-  return (
-    <LocomotiveScrollProvider
-      options={options}
-      containerRef={ref}
-      // location={pathname}
-      // onLocationChange={(scroll) =>
-      //   scroll.scrollTo(0, { duration: 0, disableLerp: true })
-      // } // If you want to reset the scroll position to 0 for example
-      // onUpdate={() => console.log("Updated, but not on location change!")}
-    >
-      <main data-scroll-container ref={ref}>
-        <Introduction />
-        <Work />
-        <Message />
-      </main>
-    </LocomotiveScrollProvider>
-  );
+	return (
+		<main>
+			<Introduction />
+			<Work />
+			<Message />
+		</main>
+	);
 }
 
 export default App;

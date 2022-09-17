@@ -3,12 +3,7 @@ import './intro-style.css';
 
 const Introduction = () => {
 	return (
-		<section
-			className="intro-section"
-			data-scroll-section
-			data-scroll
-			data-scroll-speed="6"
-		>
+		<section className="intro-section">
 			<div className="intro-image">
 				<img src={image} height={700} alt="profile" />
 			</div>
