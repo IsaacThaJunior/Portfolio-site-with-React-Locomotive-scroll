@@ -82,11 +82,9 @@ import Message from "./components/message/Message";
 import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import "./App.css";
-// import { useLocation } from "react-router-dom";
 
 function App() {
   const ref = useRef(null);
-  // const { pathname } = useLocation();
 
   const options = {
     smooth: true,
@@ -100,11 +98,6 @@ function App() {
     <LocomotiveScrollProvider
       options={options}
       containerRef={ref}
-      // location={pathname}
-      // onLocationChange={(scroll) =>
-      //   scroll.scrollTo(0, { duration: 0, disableLerp: true })
-      // } // If you want to reset the scroll position to 0 for example
-      // onUpdate={() => console.log("Updated, but not on location change!")}
     >
       <main data-scroll-container ref={ref}>
         <Introduction />
