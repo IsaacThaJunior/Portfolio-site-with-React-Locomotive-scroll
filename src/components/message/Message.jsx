@@ -11,6 +11,8 @@ const Message = () => {
 			</div>
 		</section>
 	);
+
+
 };
 
 export default Message;
